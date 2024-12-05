@@ -248,22 +248,29 @@ section {
     align-items: center;
 }
 
-.content h2 {
+.content .text h2 {
     font-size: 32px;
     text-align: left;
     font-weight: 550;
 }
 
-.content h3 {
+.content .text h3 {
     font-size: 22px;
     font-weight: 500;
 }
 
-.content p {
+.content .text p {
     max-width: 700px;
     font-size: 14px;
+    margin: 5px 0;
 }
 
 .content img {
-    height: 500px;
+    height: 600px;
 }
+
+.member {
+    background: linear-gradient(-35deg, black, 70%, rgb(184, 184, 184));
+}
+
+
